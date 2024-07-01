@@ -5,14 +5,15 @@
 
   "compilerOptions": {
     "lib": ["es2023"],
-    "module": "node16",
+    "module": "commonjs",
     "target": "es2022",
-
+    "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node16",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   }
 }
